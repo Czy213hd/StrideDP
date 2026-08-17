@@ -78,8 +78,9 @@ body {
     transform: translateY(-2px);
 }
 
-.link-block a {
+.link-block > .button {
     margin: 8px 4px;
+    vertical-align: middle;
 }
 
 .dnerf {
@@ -552,4 +553,3 @@ a:focus {
     box-shadow: none !important;
   }
 }
-
