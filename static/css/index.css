@@ -78,9 +78,22 @@ body {
     transform: translateY(-2px);
 }
 
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.link-block {
+    display: flex;
+    align-items: center;
+}
+
 .link-block > .button {
-    margin: 8px 4px;
-    vertical-align: middle;
+    height: 2.5em;
+    margin: 0;
 }
 
 .dnerf {
